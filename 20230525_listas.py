@@ -1,3 +1,8 @@
-lista = [1,2,3,4,5]
+lista = ["Juan",2,"Alan Brito",4,["Patricio","Maria"]]
 
-print(lista)
+# recorrer todos los elementos del array uno por uno
+for acumulador in lista:
+    print(acumulador)
+
+# solo un elemento
+print(lista[4][1])
